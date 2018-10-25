@@ -1,0 +1,22 @@
+{% if title %}
+<h3>{{ title }}</h3>
+{% endif %}
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Дата проведення</th>
+            <th>Номер сесії</th>
+        </tr>
+    </thead>
+    <tbody>
+
+
+    {% for row in rows %}
+    {{ row.content }}
+    {% endfor %}
+
+
+
+    </tbody>
+</table>

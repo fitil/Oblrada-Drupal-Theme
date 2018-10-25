@@ -1,0 +1,25 @@
+core: 8.x
+type: theme
+
+name: 'Oblradack Theme'
+description: 'Uses the Materializecss'
+package: 'Oblradack'
+
+regions:
+  navigation: 'Navigation'
+  navigation_collapsible: 'Navigation (Collapsible)'
+  header: 'Header'
+  slider: 'Slider'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  footer: 'Footer'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  hidden_block: 'Hidden Blocks'
+
+libraries: 
+  - oblradack/global-css 
+  - oblradack/global-js

@@ -1,0 +1,20 @@
+global-css:
+  css:
+    theme:
+      assets/jsCalendar/source/jsCalendar.css: {}
+      assets/css/photoswipe.css: {}
+      assets/css/default-skin/default-skin.css: {}
+      assets/jsCalendar/themes/jsCalendar.clean.min.css: {}
+      assets/slick/slick.css: {}
+      assets/slick/slick-theme.css: {}
+      assets/css/style.css: {}
+global-js:
+  dependencies:
+    - core/jquery
+    - core/drupal
+  js:
+    assets/jsCalendar/source/jsCalendar.js: {}
+    assets/jsCalendar/source/jsCalendar.lang.uk.js: {}
+    assets/slick/slick.min.js: {}
+    assets/js/bundle.js: {}
+    

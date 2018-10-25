@@ -1,0 +1,34 @@
+.view-kalendar
+    font-size: 14px
+
+.calendar-calendar
+    tr
+        background-color: transparent
+        td
+            border-radius: unset
+            text-align: center
+            font-size: 14px
+            height: 35px
+            line-height: 35px
+            margin: 2px
+            width: 35px
+            position: relative
+            .month
+                position: relative
+                a
+                    text-decoration: none
+            &.days
+                border: none
+                font-weight: 700
+                text-transform: uppercase
+                color: #000000
+                text-shadow: 0 0 1px rgba(0, 0, 0, 0.2)
+            &.today
+                background-color: rgba(246,81,29,.2)
+            &.has-events
+                border-bottom: 2px solid #000
+    td.today::after
+        background: #000
+        height: 2px
+        width: 100%
+        margin: 0 2px
